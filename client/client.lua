@@ -1,3 +1,20 @@
+local PlayerData = {}
+
+
+QBCore = exports['qb-core']:GetCoreObject()
+
+AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
+    PlayerData = QBCore.Functions.GetPlayerData()
+end)
+
+RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
+    PlayerData.job = JobInfo
+end)
+
+RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
+    PlayerData = {}
+end)
+
 local spawnedObjects = {}
 
 RegisterNetEvent('mar_crafting:thecrafting')

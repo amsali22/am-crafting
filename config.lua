@@ -1,7 +1,7 @@
 Config = {}
 Config.Target = "ox_target" -- you can use ox_target or qb-target (qb-target is not tested) but it will work XD.
 
-Config.Debug = true         -- Enable debug mode will print some stuff on the console. (true = enable false = disable)
+Config.Debug = false        -- Enable debug mode will print some stuff on the console. (true = enable false = disable)
 
 ----** Crafting Config **----
 
