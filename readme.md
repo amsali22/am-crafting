@@ -13,7 +13,7 @@ You can find the `ox_lib` library [here](https://github.com/overextended/ox_lib)
 
 -- if the qb target dont work use ox_target or just creat a issue and mention it i will look into it (never tested the qb-target on this)
 
-1. Customize the script according to your specific crafting requirements on the config.lua
+1. Customize the script according to your specific crafting requirements on the `config.lua`
 
 ## Contributing
 
