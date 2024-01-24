@@ -2,6 +2,8 @@
 
 This is a simple crafting script that utilizes the `ox_lib` library.
 
+You can find the `ox_lib` library [here](https://github.com/overextended/ox_lib).
+
 ## Installation
 
 1. Download it
